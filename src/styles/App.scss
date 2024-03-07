@@ -1,0 +1,90 @@
+
+.app {
+  
+}
+
+
+.shinyGold {
+  background: linear-gradient(to right, #fbf462 25%, #e1d033 50%, #bfa800 90%, #fbf462 100%);
+  //background: linear-gradient(to right, #5A75FC 20%, #70f0d4 40%, #70f0d4 60%, #5A75FC 80%);
+  background-size: 200% auto;
+  
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  animation: shine 2s linear infinite;
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+}
+.shinySilver {
+  text-align: center;
+  background: linear-gradient(to right, #ffffff 25%, #cdcdcd 50%, #a4a4a4 90%, #ffffff 100%);
+  background-size: 200% auto;
+  
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  animation: shine 2s linear infinite;
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+}
+
+.shinyBronze {
+  text-align: center;
+  background: linear-gradient(to right, #ff9d1d 25%, #dc6a00 50%, #a55800 90%, #ff9d1d 100%);
+  background-size: 200% auto;
+  
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  animation: shine 2s linear infinite;
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+}
+
+
+.swooshLeft {
+  transition: all .15s cubic-bezier(.4,0,.2,1);
+
+  .swooshLeftItem {
+    transition: transform .15s cubic-bezier(.4,0,.2,1);
+  }
+  &:hover {
+    .swooshLeftItem {
+      transform: translateX(0);
+    }
+  }
+  
+}
+.createOption {
+  cursor: pointer;
+  transition:all 0.2s cubic-bezier(1, 0, 0, 1);
+  .createOptionIcon {
+    transition: all 0.3s;
+    filter: grayscale(1);
+  }
+  &:hover {
+    .createOptionIcon {
+      transform: scale(1.1);
+      filter: grayscale(0);
+    }
+  }
+}
