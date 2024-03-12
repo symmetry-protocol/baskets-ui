@@ -3,7 +3,7 @@ import { PublicKey, Connection } from "@solana/web3.js";
 const stored_user_pubkey = "pubkey";
 
 // Enter your RPC endpoint here
-export const RPC_ENDPOINT = "https://mainnet-beta.solana.com";
+export const RPC_ENDPOINT = "https://mainnet.helius-rpc.com/?api-key=bbfc7418-556e-4a26-b4a2-489d9ffdb4be";
 export const TOKEN_LIST_API = "https://token.jup.ag/strict";
 export const TOKEN_PROGRAM_ID = "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA";
 

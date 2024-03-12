@@ -46,7 +46,7 @@ const LeaderboardPage = () => {
     <div className="w-full flex flex-col px-4 gap-4 mt-4">
       <div className="flex flex-col gap-1">
         <h1 className="text-xl font-bold">Leaderboard TOP 100</h1>
-        <p className="text-muted-foreground">Rank up the ladder before April 30, the 📸 will be taken on May 1, 00:00 UTC. Protocol user rankings update hourly. </p>
+        <p className="text-muted-foreground">Rank up the ladder before May 31st, the 📸 will be taken on May 1, 00:00 UTC. Protocol user rankings update hourly. </p>
       </div>
       <Table>
         <TableCaption>User Rankings</TableCaption>

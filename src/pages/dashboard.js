@@ -101,7 +101,7 @@ const DashboardPage = () => {
         <div className="w-full grid grid-cols-2 md:grid-cols-4 items-center gap-2 md:gap-4">
           <div className="w-full flex flex-col gap-2 border rounded-lg p-4">
             <div className="flex items-center justify-between">
-              <p className="text-sm text-muted-foreground">Hotal Holdings</p>
+              <p className="text-sm text-muted-foreground">Total Holdings</p>
               {/* <PriceChange label={""} change={12} /> */}
             </div>
             {
