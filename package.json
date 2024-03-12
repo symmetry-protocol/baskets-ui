@@ -30,7 +30,7 @@
     "@solana/wallet-adapter-wallets": "^0.19.26",
     "@solana/web3.js": "^1.90.0",
     "@svgr/webpack": "^8.1.0",
-    "@symmetry-hq/baskets-sdk": "^0.0.15",
+    "@symmetry-hq/baskets-sdk": "^0.0.16",
     "@vercel/og": "^0.6.2",
     "add": "^2.0.6",
     "boring-avatars": "^1.10.1",

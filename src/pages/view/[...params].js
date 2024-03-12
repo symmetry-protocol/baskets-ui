@@ -60,7 +60,7 @@ const VaultPage = ({}) => {
                 symbol: vaultInfo.parsed.symbol,
                 uri: vaultInfo.parsed.uri,
                 address: vaultInfo.parsed.basketTokenMint,
-                price: basket.data.supplyOutsanding.toNumber() == 0 ? 100 : vaultInfo.parsed.rawPrice,
+                price: basket.data.supplyOutstanding.toNumber() == 0 ? 100 : vaultInfo.parsed.rawPrice,
                 basket: true,
                 logoURI: null,
               }
